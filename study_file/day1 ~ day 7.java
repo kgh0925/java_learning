@@ -171,6 +171,17 @@ public class Main {
     if (str3.equals(str4)) {
       System.out.println("str3 and str4 have the same string.");
     }
+
+    int[] score = {40, 76, 31, 88, 59, 100, 93, 67, 43, 95};
+
+    int sum = 0;
+    for (int o =0; o<10; o++) {
+      sum += score[o];
+    }
+    double avg = (double) sum / 10;
+    System.out.println("The average of students' exams : " + avg);
+
+    
   }
 }
 */
